@@ -1,5 +1,5 @@
-import qrcode
-import image
+import qrcode #install this packages to use this programm
+import image #install this packages to run this program
 
 qr = qrcode.QRCode(
     version=15,

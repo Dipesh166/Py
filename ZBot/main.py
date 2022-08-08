@@ -22,9 +22,9 @@ def main():
     youtube_1 = YouTube(link)
 
     def my_fun():
-        if a == 3:
-            videos = youtube_1.streams
-        elif a == 4:
+        if a==3:
+         videos = youtube_1.streams
+        elif a==4:
             videos = youtube_1.streams.filter(only_audio=True)
         vido = list(enumerate(videos))
         for i in vido:
@@ -32,11 +32,13 @@ def main():
         print()
         srm = int(input("Enter the number to download videos=="))
         videos[srm].download()
-        if a == 3:
-            print("Successfully Downloaded video...")
-        elif a == 4:
-            print("Successfully Downloaded audio..")
+        if a==3:
+         print("Successfully Downloaded video...")
+        elif a==4:
+         print("Successfully Downloaded audio..")
 
+
+    
     if a == 1:
         print(youtube_1.title)
     elif a == 2:

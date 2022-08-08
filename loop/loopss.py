@@ -1,7 +1,7 @@
 #while loop
-
+n=int(input("enter the number =="))
 i=0
-while i<5:
-    print("hello" + str(i))
+while i<n:
+    print("I Love YOU 🌹🌹🌹" )
     i+=1
 print("done")    
